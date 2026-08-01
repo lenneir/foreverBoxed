@@ -24,19 +24,21 @@ body{
         0 0 8px #9932CC,
         0 0 16px #9932CC,
         inset 0 0 20px #9932CC;
+    color: rgb(253, 236, 253);
+    display: flex;
+    flex-direction: column;
+    font-family: "Calistoga";
+    gap: 1px;
     justify-content: center;
+    line-height: 1;
     margin: 0;
-    padding: 1em;
+    padding: 10px;
 }
 
 .clock div{
     align-items: center;
-    color: rgb(253, 236, 253);
-    font-family: "Calistoga";
     justify-content: center;
-    line-height: 50px;
     margin: 0;
-    overflow: hidden;
     text-align: center;
     text-shadow: 
         0 0 2px #9932CC,
@@ -52,14 +54,19 @@ body{
 }
 
 .dates {
-    display: flex;
-    font-size: 30px;
-    gap: 10px;
-    letter-spacing: 2px;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    gap: 25px;
+    letter-spacing: 1px;
+    justify-content: center;
 }
 
 .time{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     font-size: 55px;
+    justify-content: center;
 }
